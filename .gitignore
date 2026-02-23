@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+data/
+*.joblib
+*.pkl
+.DS_Store
+.idea/
+.vscode/
+config/default.yaml
+data/
+*.joblib
+*.pkl
+.env

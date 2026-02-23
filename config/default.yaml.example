@@ -1,0 +1,23 @@
+
+opensearch:
+  host: "10.0.10.123"
+  port: 9200
+  username: YOUR_USERNAME
+  password: YOUR_PASSWORD
+  use_ssl: true
+  verify_certs: false
+
+output:
+  index_prefix: "ml-anomalies"
+
+wazuh:
+  index_pattern: "wazuh-alerts-*"
+  lookback_minutes: 60
+  baseline_days: 14
+
+
+auth:
+  query_groups_any:
+    - "authentication"
+    - "sshd"
+    - "pam"

@@ -15,3 +15,8 @@ data/
 *.joblib
 *.pkl
 .env
+*.egg-info/
+mlwazuh.egg-info/
+build/
+dist/
+EOF

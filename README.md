@@ -84,12 +84,5 @@ data/          # Local model artifacts (ignored by git)
 
 ---
 
-## Notes
-
-- `config/default.yaml` is ignored (contains credentials)
-- Model artifacts are stored locally and not committed
-- Default lookback window is defined in training/detection scripts
-
----
 
 
